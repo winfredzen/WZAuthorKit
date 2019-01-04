@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'WZAuthorKit_Example' do
+  pod 'WZAuthorKit', :path => '../'
+
+  target 'WZAuthorKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
